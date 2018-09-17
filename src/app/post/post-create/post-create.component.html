@@ -1,1 +1,5 @@
-<h1>Halaman tambah baranghgh</h1>
+<input type="text" name="title">
+<textarea rows="6" [(ngModel)]="enteredValue"></textarea>
+<hr>
+<button (click)="onAddPost()">Save</button>
+<p>{{ newPost }}</p>
